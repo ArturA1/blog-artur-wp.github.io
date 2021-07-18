@@ -1,0 +1,1445 @@
+/* 
+    Created on : 18.08.2020, 9:59:11
+    Author     : artur
+*/
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+*{
+    box-sizing: border-box;
+    max-width: 100%;
+}
+html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+    /*    font-family: 'Oranienbaum', serif;*/
+}
+
+/*.inner{
+    max-width: 1110px;
+}*/
+.main .inner{
+
+}
+
+html body .main .inner{
+
+}
+
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+    display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+    box-sizing: content-box; /* 1 */
+    height: 0; /* 1 */
+    overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+    background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+    border-bottom: none; /* 1 */
+    text-decoration: underline; /* 2 */
+    text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+    font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+    font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+sup {
+    top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+    border-style: none;
+    max-width: 100%;         /*ДОБАВИЛ*/
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 1 */
+    line-height: 1.15; /* 1 */
+    margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+    overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+    text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+    -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+    padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+    box-sizing: border-box; /* 1 */
+    color: inherit; /* 2 */
+    display: table; /* 1 */
+    max-width: 100%; /* 1 */
+    padding: 0; /* 3 */
+    white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+    vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+    overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+    height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button; /* 1 */
+    font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+    display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+    display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+    display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+    display: none;
+}
+
+body{
+    background: #ffffff;
+    margin: 0 auto;
+}
+#wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+header{
+    background: #FBFAF9;
+    width: 302px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    max-height: 100%;
+}
+#cover_case{
+    width: calc(100% - 302px);
+    position: relative;
+
+}
+.main_header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    position: sticky;
+   /* height: fit-content;*/
+}
+footer{
+    display: flex;
+    background: #f6f3ef;
+    position: relative;
+}
+.logo{
+    margin: 42px auto 34.66px auto;
+}
+.language{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+.language img{
+    margin-right: 10.58px; /* Сдвиг вправо */
+}
+/* Стрелка */
+i { margin-top: 10px;
+    border: solid #2F231C;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 4px;
+}
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 38.64px 0 192.77px 0;
+    background: #FBFAF9;
+    max-width: 302px;
+}
+nav .item:hover{
+    background: #f7f4f1;
+    max-width: 100%;
+}
+.underline{
+    border-bottom: 1px solid rgba(192, 176, 161, 0.3);
+    max-width: 225px;
+    position: absolute;
+}
+.item{
+    padding: 13.71px 0 10.55px 0;
+    font-family: Oranienbaum, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration: none;
+    color: #2F231C;
+    display: block;
+    width: 320px;
+    text-align: center;
+    position: relative;
+}
+.call{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #767676;
+    text-decoration: none;
+}
+.call:before{
+    content: '';
+    background-image: url(imge/tele.svg);
+    width: 15.38px;
+    height: 15.38px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 1px;
+    margin-left: -20px;
+}
+.email{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #767676;
+    text-decoration: none;
+}
+.contacts .email:before{
+    content: '';
+    background-image: url(imge/mail.svg);
+    width: 15px;
+    height: 15px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 23px;
+    margin-left: -21px;
+}
+.address{
+    margin: 8px 0 4px 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #767676;
+    text-decoration: none;
+}
+.terms_use{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 17px;
+    text-align: center;
+    color: #BDBDBD;
+    border-bottom: 1px dashed #BDBDBD;
+    text-decoration: none;
+}
+#banner{
+    background: url(imge/top-pic.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 313px;
+}
+.heading .heading-2::before{    
+    content: '';
+    background-image: url(imge/tracery.svg);
+    width: 314px;
+    height: 22px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    align-items: center;
+    left: 50%;
+    top: 150px;
+    margin-left: -157px;
+}
+#banner .heading-1{
+    font-family: Oranienbaum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 65.1894px;
+    line-height: 75px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+#banner .heading-2{
+    font-family: Oranienbaum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 104.162px;
+    line-height: 120px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: relative;
+}
+.reservation{
+    margin-top: 265.61px;
+    display: flex;
+    background-color: rgba(251, 250, 249, 0.8);
+}
+.reservation_text{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18.0317px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #453A33;
+    margin: 38px 24px 26.05px 0;
+}
+.search_nomber--heading{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #040404;
+    margin-top: 18px;
+    margin-bottom: 1px;
+}
+#banner select{
+    background: #FFFFFF;
+    border: 1px solid #F0EBE6;
+    width: 261.74px;
+    height: 40px;
+    /* стиль текста */
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #555555;
+    padding-left: 16.16px;
+    /* стрелка */
+    -webkit-appearance: none; /* убрать стандартную стелку */
+}
+.hotel{
+    margin-right: 39.26px;
+}
+#banner .bloc_date{
+    background: #FFFFFF;
+    border: 1px solid #F0EBE6;
+    width: 255.28px;
+    height: 40px;
+    /* стиль текста */
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #555555;
+    -webkit-appearance: none;
+}
+#banner .arrival_date_1{
+    margin-right: 28.44px;
+}
+#banner .arrival_date_2{
+    margin-right: 21px;
+}
+#banner .bloc_date::before {
+    content: '';
+    background-image: url(imge/data.svg);
+    width: 21px;
+    height: 21px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 210px;
+}
+.search_nomber--nomber{
+    display: flex;
+    background: #3C5B2D;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    padding: 11px 24px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+.welcome-case{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+.heading--middle{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 89px;
+    margin-bottom: 82.11px;
+    position: relative;
+}
+.heading__mid-1{    
+    font-family: Oranienbaum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 43.3533px;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #3C5B2D;
+}
+.heading__mid-2{    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    color: #333333;
+}
+.heading__mid-2::before{    
+    content: '';
+    background-image: url(imge/tracery2.svg);
+    width: 314px;
+    height: 22px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    align-items: center;
+    left: 50%;
+    top: 100px;
+    margin-left: -157px;
+}
+.info-hotel{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.info-hotel--text--heading{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #454545;
+    max-width: 568px;
+}
+.hotel__case{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.hotel__case li{
+    list-style-type: square;
+    color: #8FB92C;
+}
+.move-left{
+    max-width: 238px;
+    margin-left: -22px;
+}
+.move-right{
+    margin-left: 70px;
+}
+.hotel__case a{
+    border-bottom: 1px solid rgba(60, 91, 45, 0.39);
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 22px;
+    color: #3C5B2D;
+    line-height: 2;
+}
+.info-hotel--picture{
+    position: relative;
+    width: 507px;
+    height: 534px;
+    z-index: 0;
+    margin-left: auto;
+    /* тень */
+    /*box-shadow: 1px 1px 5px #000;*/
+}
+.info-hotel--picture::after {
+    content: "";
+    position: absolute;
+    left: 46px;
+    top: 49px;
+    width: 507px;
+    height: 534px;
+    background: #F4F0EC;
+    background-size: 100%;
+    z-index: -1;
+}
+.about-company{
+    display: flex; 
+    justify-content: center;
+}
+.about-company a{
+    background: #FFFFFF;
+    margin-top: 124px;
+    padding: 18px 46px;
+    text-decoration: none;
+    color: #3C5B2D;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 22px;
+    text-transform: uppercase;
+    border: 1px solid #3C5B2D;
+}
+.hotel-s{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 125px;
+}
+.hotel-s--mid-text{
+    font-family: Oranienbaum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 39.0805px;
+    line-height: 51px;
+    color: #3C5B2D;
+}
+.hotel-s--mid-text::before{    
+    content: '';
+    background-image: url(imge/tracery2.svg);
+    width: 314px;
+    height: 22px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    align-items: center;
+    left: 50%;
+    top: 58px;
+    margin-left: -157px;
+}
+.hotel-s--middle{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 86.43px;
+    flex-direction: row;
+    position: relative;
+}
+.slider-nav-1{
+    display: flex;
+    right: 0;
+    position: absolute;
+}
+.slider-nav-2{
+    display: flex;
+    right: 0;
+    position: absolute;
+}
+.slider-hotel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 370px;                      /*  ДОБАВИЛИ   */
+
+}
+.img-top{
+    /*    max-height: 232px;                  УБРАЛИ    */
+}
+.img-top img{
+    width: 100%;                  /*      УБРАЛИ    */
+}
+.box{
+    margin-bottom: 60px;
+    max-width: 370px;                  /* ДОБАВЛЕНО */
+    display: flex;
+    flex-direction: column;
+    /* тень */
+    box-shadow: 1px 1px 5px #efefef;
+}
+.box-bottom{
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+}
+.box-text{
+    margin-top: 7px;
+    margin-left: 20px;
+}
+.box-text-1{
+    font-family: Oranienbaum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27.9px;
+    line-height: 44px;
+    color: #2F231C;
+}
+.box-text-2{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 33px;
+    color: #8B8B8B;
+}
+.star{
+    margin-top: 23.07px;
+    margin-left: auto;
+}
+.button-next{
+    background: #C2AD95;
+    padding: 32px 36px;
+    margin-left: 18.38px;
+    position: relative;
+}
+.button-next::before{
+    content: '';
+    background-image: url(imge/next.png);
+    width: 17.69px;
+    height: 20px;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    position: absolute;
+    /*                                        ДОБАВЛЕНО */
+    left: 45%;
+    top: 40%;
+}
+.all-hotel{
+    display: flex;
+    justify-content: center;
+}
+.all-hotel a{
+    background: #FFFFFF;
+    margin-top: 7px;
+    padding: 18px 46px;
+    text-decoration: none;
+    color: #3C5B2D;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 22px;
+    text-transform: uppercase;
+    border: 1px solid #3C5B2D;
+}
+.slider-news{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    padding-bottom: 5px;
+    width: 100%;
+
+}
+.box--text{
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 17px 22px;
+}
+.box-news{
+    background: #FFFFFF;
+    /* тень */
+    box-shadow: 1px 1px 5px #efefef;
+    display: flex;
+    flex-direction: column;
+    height: 450px;                /* добавил */
+    flex-wrap: nowrap;
+}
+.box--text-1{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    color: #737373;
+}
+.box--text-2{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 35px;
+    color: #000000;
+}
+.box--text-3{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 140%;
+    color: #454545;
+}
+.box--text-4{
+    margin-top: auto;
+}
+.box--text-4 a{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 140%;
+    color: #3C5B2D;
+    text-decoration: none;
+}
+.all-news{
+    display: flex;
+    justify-content: center;
+}
+.all-news a{
+    background: #3C5B2D;
+    margin-top: 63px; 
+    padding: 18px 46px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 22px;
+    text-transform: uppercase;
+    border: 1px solid #3C5B2D;
+}
+/* новый   */
+.maps{
+    margin-left: 73px;
+    position: relative;
+    width: calc(100% - 73px);
+    height: 100%;
+    z-index: 0;
+    background: #ffffff;
+    /* тень */
+    /*box-shadow: 1px 1px 5px #000;*/
+}
+.maps-fond{
+    background: #ffffff;
+}
+.copyright_block{
+    display: flex;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #767676;
+    margin: 69px  0px  26px 0px;
+}
+.partners{
+    margin-top: 45.98px;
+    display: flex;
+    flex-direction: row;
+}
+.partners--text{
+    margin-right: 16px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #2C2B2B;
+}
+.logo-arm img{
+    margin-top: -7px;
+    width: 228.52px;
+    height: 34.66px;
+}
+.deal{
+    margin-left: auto;
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 228px;
+    margin: 0 auto;
+    position: relative;
+}
+.call-footer{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    color: #000000;
+    text-decoration: none;
+}
+.address-footer{
+    margin-top: 14px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #555555;
+    text-decoration: none;
+}
+.address-footer a{
+    margin-top: 14px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #555555;
+    text-decoration: none;
+}
+.top-footer{
+    margin-top: 46px;
+    display: flex;
+    flex-direction: row;
+}
+.menu-footer{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+}
+.menu-footer>div{
+    display: flex;
+    flex-direction: column;
+    margin-right: 104px;
+}
+.menu-footer a{
+    margin-bottom: 22px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #555555;
+    text-decoration: none;
+}
+
+.menu-nav{
+    width: 100%;
+}
+
+
+
+.hotel-selection{
+    display: flex;
+    flex-direction: row;
+}
+
+.inner{
+    margin-left: 73px;
+    width: 1200px;
+    position: relative;
+    display: flex;
+}
+.column-footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-wrapper{
+    height: auto;
+}
+
+.menu_bttn{
+    display:none;
+}
+.menu_bttn.active::before{
+    transform:rotate(45deg);
+    top: 22px;
+}
+.menu_bttn.active::after{
+    transform:rotate(-45deg);
+    top: 22px;
+}
+.menu_bttn.active span{
+    transform: scale(0);
+}
+
+.navigation-case{
+    background-color:#FBFAF9;
+    height:100vh;
+    position: fixed;
+    left:-10000px;
+    top: 0;
+    overflow: auto;
+    padding: 14px;
+    display: none;
+}
+
+
+@media (max-width: 1621px){
+    .info-hotel--picture::after{
+        left: 0px;
+    }
+    .inner{
+        width: 90%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+    .about-company{
+        margin-bottom: 30px;
+    }
+    .reservation_text{
+        margin-bottom: 0px;
+    }
+}
+@media (max-width: 1496px){
+    .info-hotel--picture{
+        margin: 0 auto;
+    }
+    .info-hotel--picture::after{
+        left: 46px;
+    }
+    .info-hotel--text--heading{
+        max-width: 100%;
+    }
+    .hotel__case{
+        justify-content: center;
+    }
+}
+@media (max-width: 1280px){
+    .all-hotel{
+        margin-bottom: 30px;
+    }
+    .box--text-4{
+        bottom: auto;
+    }
+    .box-text{
+        margin-left: 0px;
+        padding-left: 10px;
+    }
+    .menu-footer>div{
+        margin-right: 30px;
+    }
+    .info-hotel--text{
+        max-width: 100%;
+    }
+
+}
+@media (max-width: 1274px){
+    #wrapper{
+        flex-direction: column;
+    }
+    .main_header{
+        width: 90%;
+        height: fit-content;
+    }
+    .logo {
+        margin: 20px auto;
+    }
+    #cover_case{
+        width: 100%;
+    }
+    #banner .arrival_date_2{
+        margin-left: 0px;
+    }
+    .move-left{
+        margin-left: 0px;
+    }
+    header{
+        width: 100%;
+    }
+    nav{
+        flex-direction: row;
+        width: 90%;
+        margin: 10px auto;
+        justify-content: space-between;
+        max-width: 100%;
+    }
+    .item{
+        width: auto;
+    }
+    .contacts{
+        width: 90%;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 100%;
+    }
+    .call:before {
+        top: auto;
+    }
+    .contacts .email:before{
+        top: auto;
+    }
+}
+@media (max-width: 1120px){
+    .box{
+        max-width: 100%;
+    }
+}
+@media (max-width: 1020px){
+    body.lock{
+        overflow:hidden;
+    }
+    .main_header{
+        flex-direction: row;
+        position: relative;
+    }
+    .menu_bttn {
+        display: block;
+        width: 46px;
+        height: 44px;
+        background-color: rgba(251,251,252,0.4);
+        cursor: pointer;
+        position: fixed;
+        z-index: 4;
+        border-radius: 2px;
+        padding: 5px;
+        left: 20px;
+    }
+    .menu_bttn.active{
+        display: block;
+        width: 46px;
+        height: 44px;
+        background-color: rgba(251,251,252,0.4);
+        cursor: pointer;
+        position: fixed;
+        z-index: 4;
+        border-radius: 2px;
+        padding: 5px;
+        left: 220px;
+    }
+    .menu_bttn::after{
+        content:'';
+        background-color:#000;
+        position: absolute;
+        width:36px;
+        height:2px;
+        left:5px;
+        top: 37px;
+        transition: all 0.3s ease 0s;
+    }
+    .menu_bttn::before{
+        content:'';
+        background-color:#000;
+        position: absolute;
+        width:36px;
+        height:2px;
+        left:5px;
+        transition: all 0.3s ease 0s;
+    }
+    .menu_bttn span{
+        position: absolute;
+        background-color: #000;
+        left: 5px;
+        width: 36px;
+        height: 2px;
+        top: 22px;
+        transition: all 0.3s ease 0s;
+    }
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu-nav{
+        display: none;
+    }
+    .navigation-case.active{
+        left:0;
+        z-index: 3;
+        transition: all 0.4s ease 0s;
+        display:flex;
+        flex-direction: column;
+    }
+     nav{
+        justify-content: flex-start;
+        max-width: 320px;
+        margin: 0 auto;
+    }
+    .contacts{
+        flex-direction: column;
+        margin: 40px auto;
+    }
+    .terms_use{
+        display: none;
+    }
+}
+@media (max-width: 890px){
+    .top-footer{
+        flex-direction: column;
+    }
+    .menu-footer{
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    .reservation_text{
+        margin-bottom: 0px;
+    }
+    .hotel-selection{
+        flex-direction: column;
+    }
+}
+@media (max-width: 694px){
+    .box{
+        max-width: 100%;
+    }
+    .move-right{
+        margin-left: auto;
+    }
+    .heading__mid-2::before{
+        top: 120px;
+    }
+    .maps{
+        margin-left: 0px;
+        width: 100%
+    }
+}
+@media (max-width: 615px){
+    .copyright_block{
+        flex-direction: column;
+    }
+    .deal{
+        margin-left: 0px;
+    }
+}
+@media (max-width: 582px){
+    .info-hotel--picture::after{
+        left: 0px;
+    }
+    .hotel__case{
+        flex-direction: column;
+    }
+    .move-right{
+        margin-left: 0px;
+    }
+    #banner .heading-1{
+        font-size: 40px;
+    }
+    #banner .heading-2{
+        font-size: 50px;
+    }
+    .heading__mid-1{
+        font-size: 30px;
+    }
+    .partners{
+        margin-top: 0px;
+        flex-direction: column;
+    }
+    .logo-arm img{
+        margin-top: 10px;
+    }
+    .heading__mid-2::before{
+        top: 150px;
+    }
+    .info-hotel--picture::after{
+        display: none;
+    }
+    .info-hotel--picture{
+        height: 100%;
+    }
+    .about-company a{
+        margin-top: 10px;
+    }
+    .slider-nav-2{
+        top: 85px;
+        right: auto;
+    }
+    .slider-nav-1{
+        top: 85px;
+        right: auto;
+    }
+    .copyright_block{
+        margin: 26px 0px;
+    }
+    .heading{
+        margin-top: 0px;
+    }
+    .reservation{
+        margin-top: 65px;
+    }
+}
+
